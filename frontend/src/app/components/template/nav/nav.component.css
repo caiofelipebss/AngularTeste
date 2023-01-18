@@ -1,0 +1,13 @@
+.sidenav {
+    width: 200px;
+}
+
+.nav-list i {
+    vertical-align: middle;
+    color: #064587;
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
+}

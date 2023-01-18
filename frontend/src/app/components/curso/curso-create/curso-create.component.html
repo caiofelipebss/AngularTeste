@@ -1,0 +1,45 @@
+<mat-card>
+    <mat-card-title class="ajustarTextoIncluir">Curso - Incluir</mat-card-title>
+
+    <form>
+        <p>Nome:</p>
+        <mat-form-field>
+            <input matInput placeholder="Nome do curso" [(ngModel)]="curso.nome" name="nome">
+        </mat-form-field>
+        
+        <p>Instrutor:</p>
+        <mat-form-field>
+            <input matInput placeholder="Instrutor"  [(ngModel)]="curso.instrutor" name="instrutor">
+        </mat-form-field>
+    
+        <p>Local:</p>
+        <mat-form-field>
+            <input matInput placeholder="Local"  [(ngModel)]="curso.local" name="local">
+        </mat-form-field>
+        
+        <p>Carga Horária:</p>
+        <mat-form-field>
+            <input matInput placeholder="Carga horária"  [(ngModel)]="curso.cargaHoraria" name="cargaHoraria">
+        </mat-form-field>
+    
+        <p>Data Início:</p>
+        <mat-form-field>
+            <input matInput placeholder="dd/mm/aaaa"  [(ngModel)]="curso.dataInicio" name="dataInicio">
+        </mat-form-field>
+    </form>
+
+    <div class="botoesSC">
+
+    <div class="botaoSalvar">
+    <button mat-raised-button (click)="createCurso()" style="background-color: #064587; color: aliceblue;">
+        Incluir
+    </button>
+    </div>
+
+    <button mat-raised-button (click)="cancel()" style="background-color: #064587; color: aliceblue;">
+        Voltar
+    </button>
+    
+    </div>
+
+</mat-card>

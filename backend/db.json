@@ -1,0 +1,52 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Angular",
+      "instrutor": "Genival",
+      "local": "Softex",
+      "cargaHoraria": 36,
+      "dataInicio": "18/01/2023"
+    },
+    {
+      "id": 2,
+      "nome": "Java",
+      "instrutor": "Genival",
+      "local": "Softex",
+      "cargaHoraria": 70,
+      "dataInicio": "17/01/2023"
+    },
+    {
+      "id": 3,
+      "nome": "C#",
+      "instrutor": "Macoratti",
+      "local": "Plataforma Udemy",
+      "cargaHoraria": 50,
+      "dataInicio": "19/01/2022"
+    },
+    {
+      "nome": "JavaScript",
+      "instrutor": "Leonardo Leitao",
+      "local": "Udemy",
+      "cargaHoraria": "90",
+      "dataInicio": "09/01/2023",
+      "id": 4
+    },
+    {
+      "nome": "Angular",
+      "instrutor": "Fulano",
+      "local": "Cod3R",
+      "cargaHoraria": "7",
+      "dataInicio": "16/01/2023",
+      "id": 5
+    },
+    {
+      "nome": "Curso fake",
+      "instrutor": "fake",
+      "local": "fakee",
+      "cargaHoraria": "9",
+      "dataInicio": "09/12/1993",
+      "id": 6
+    }
+  ]
+}
